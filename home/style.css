@@ -1,0 +1,54 @@
+html{
+    background-color:rgb(0, 0, 0);
+}
+body{
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin:auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 30px;
+    overflow-x: hidden;
+    width: 90vw;
+    padding: 5vmin;
+    background-color:rgba(41, 41, 41, 0.726);
+    font-size: 30px;
+    color: aliceblue;
+}
+h1{
+    color: rgba(240, 255, 255, 0.452);
+}
+h2{
+    color: rgba(240, 248, 255, 0.596);
+    text-align: right;
+    width: 620px;
+    float: right;
+}
+.multicolor-text {
+    text-align: center;
+    font-size: 9vw;
+    background: linear-gradient(to right,
+            red 0%,
+            orange 25%,
+            orangered 50%,
+            orange 75%,
+            red 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.light-text{
+    animation: flash 0.7s linear infinite;
+}
+@keyframes flash{
+    0%{color: aliceblue;}
+    10%{color: aqua;}
+    20%{color: red;}
+    30%{color: orange;}
+    40%{color: blue;}
+    50%{color: cyan;}
+    60%{color: greenyellow;}
+    70%{color: orangered;}
+    80%{color: yellow;}
+    90%{color: aquamarine;}
+    100%{color: aliceblue;}
+}
